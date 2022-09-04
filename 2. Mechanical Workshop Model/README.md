@@ -1,6 +1,6 @@
 # Mechanical Workshop Model
 
-This model was developed in MySQL Workbench as part of the [Database Experience](https://www.dio.me/bootcamp/database-experience) Bootcamp from Digital Innovation One (DIO). It was intended to create from scratch a Mechanical Workshop Model.
+This model was developed in MySQL Workbench as part of the [Database Experience](https://www.dio.me/bootcamp/database-experience) Bootcamp from Digital Innovation One (DIO). It was intended to create a Mechanical Workshop Model from scratch.
 
 ## Objective:
 Creates the conceptual schema for the workshop context based on the narrative provided.
