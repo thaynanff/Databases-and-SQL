@@ -1,6 +1,6 @@
 # E-Commerce Project
 
-This project was developed in MySQL Worckbench as part of the [Database Experience](https://www.dio.me/bootcamp/database-experience) bootcamp from Digital Innovation One (DIO). It was intended to create an E-Commerce Entity-Relationship Model and improve it, answering some questions.
+This project was developed in MySQL Workbench as part of the [Database Experience](https://www.dio.me/bootcamp/database-experience) bootcamp from Digital Innovation One (DIO). It was intended to create an E-Commerce Entity-Relationship Model and improve it, answering some questions.
 
 ## Main entities:
 
