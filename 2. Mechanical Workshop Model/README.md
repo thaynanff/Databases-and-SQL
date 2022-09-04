@@ -18,8 +18,6 @@ Creates the conceptual schema for the workshop context based on the narrative pr
 
 The model can be seen below and downloaded above. If you find that this model should pass through updates, feel free to recommend it.
 
-
-
 ## Model:
 
 <p align="center">
