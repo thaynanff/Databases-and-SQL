@@ -23,19 +23,27 @@ This project was developed in MySQL Workbench as part of the [Database Experienc
 
 ## Challenge:
 
-- Natural person and Legal Person – An account can be NP or LP, but cannot have both information:
-  - It was created two tables were the information of the NPs and LPs are stored
-  - They are joined in another table but in this table, each NP and LP IDs can have only one e-mail associated, that is, they must be unique
 - Payment – You may have registered more than one payment method:
   - A table with of paymment methods was created
   - Each client can have one or more paymment methods
 - Delivery – There are status and tracking code:
   - An entity with the information of the order was created with the status and tracking code
+- Create the SQL Script of the Conceptual Model
+- Insert data into the tables
+- Retrieve information through SQL Statements
+  - SELECT
+  - WHERE
+  - Create expressions to generate derived attributes
+  - Use ORDER BY
+  - Use HAVING
+  - Join tables with JOIN
 
 The model can be seen below and downloaded above. If you find that this model should pass through updates, feel free to recommend it.
 
 ## Model:
 
 <p align="center">
-  <img src="https://github.com/thaynanff/Databases-and-SQL/blob/main/1.%20E-Commerce%20Model/E-Commerce%20Project.png?raw=true">
+  <img src="https://github.com/thaynanff/Databases-and-SQL/blob/main/1.%20E-Commerce%20Model/E-Commerce%20Project%20v2.png?raw=true">
 </p>
+
+
