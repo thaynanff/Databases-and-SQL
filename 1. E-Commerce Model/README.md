@@ -37,5 +37,5 @@ The model can be seen below and downloaded above. If you find that this model sh
 ## Model:
 
 <p align="center">
-  <img src="https://github.com/thaynanff/Databases-and-SQL/blob/main/1.%20E-Commerce%20Model/E-Commerce%20Project.png?raw=true" >
+  <img src="https://github.com/thaynanff/Databases-and-SQL/blob/main/1.%20E-Commerce%20Model/E-Commerce%20Project.png?raw=true">
 </p>
