@@ -7,7 +7,7 @@ Creates the conceptual schema for the workshop context based on the narrative pr
 
 ## Narrative:
 
-- Control and management system for th0e execution of work orders in a mechanical workshop.
+- Control and management system for the execution of work orders in a mechanical workshop.
 - Customers take vehicles to the mechanic shop to be repaired or to undergo periodic inspections.
 - Each vehicle is assigned to a team of mechanics who identify the services to be performed and fill in an MO with a delivery date.
 - From the Maintenence Order (MO), the value of each service is calculated, consulting a labor reference table.
