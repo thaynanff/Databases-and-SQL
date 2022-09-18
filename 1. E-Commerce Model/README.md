@@ -47,3 +47,77 @@ The model can be seen below and downloaded above. If you find that this model sh
 </p>
 
 
+## Some questions that were answered with queries
+
+PS: more can be seen in the SQL Script that is available in the files.
+
+- How many men and women we have as clients?
+
+```
+SELECT sex, count(1) AS Qty
+FROM personclient
+GROUP BY sex
+ORDER BY Qty desc;
+```
+
+- What are the products that each supplier provides?
+
+```
+SELECT s.registeredname, p.category, p.price
+FROM supplier s JOIN ecommerce.`making a product available` m
+ON 
+	s.idSupplier = m.idSupplier
+JOIN product p
+ON
+	m.idProduct = p.idProduct;
+```
+
+- What are the average price that each supplier provides?
+
+```
+SELECT s.registeredname, p.category, ROUND(AVG(p.price),2) as avg_price
+FROM supplier s JOIN ecommerce.`making a product available` m
+ON 
+	s.idSupplier = m.idSupplier
+JOIN product p
+ON
+	m.idProduct = p.idProduct
+GROUP BY 
+	s.registeredname;
+```
+- What are the products tha each client bought?
+
+```
+SELECT p.firstname, p.city, pr.category, pr.price, pr.quantity
+FROM
+	personclient p JOIN ecommerce.order o
+ON
+	p.idClient = o.idClient
+JOIN
+	productorder po
+ON
+	o.idOrder = po.idOrder
+JOIN
+	product pr
+ON
+	po.idProduct = pr.idProduct;
+```
+
+- What are the total spent of each client?
+
+```
+SELECT p.firstname, round(sum(pr.price),2) AS total, sum(pr.quantity) as total_qty
+FROM
+	personclient p JOIN ecommerce.order o
+ON
+	p.idClient = o.idClient
+JOIN
+	productorder po
+ON
+	o.idOrder = po.idOrder
+JOIN
+	product pr
+ON
+	po.idProduct = pr.idProduct
+GROUP BY p.firstname;
+```
