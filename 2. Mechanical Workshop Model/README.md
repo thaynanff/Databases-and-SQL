@@ -21,5 +21,5 @@ The model can be seen below and downloaded above. If you find that this model sh
 ## Model:
 
 <p align="center">
-  <img src="https://github.com/thaynanff/Databases-and-SQL/blob/main/2.%20Mechanical%20Workshop%20Model/Mechanical%20Workshop%20Model.png?raw=true" >
+  <img src="https://github.com/thaynanff/Databases-and-SQL/blob/main/2.%20Mechanical%20Workshop%20Model/Mechanical%20Workshop%20Model%20v2.png?raw=true" >
 </p>
